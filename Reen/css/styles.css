@@ -1,0 +1,379 @@
+body{
+    margin: 0;
+    font-family: "Source Sans Pro";
+    
+    padding-top: 130px;
+
+    
+    
+}
+header .container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+
+header .navbar-header{
+    background-color: rgb(245, 247, 251);
+    box-shadow: 0px 1px 0px 0px rgba(230, 233, 237, 0.004);
+    width: 1920px;
+    height: 40px;
+    left: 0px;
+    top: 0px;
+      
+}
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ header .navbar-header .contact{    
+     display: inline-block;
+     height: 40px;
+     font-size: 12px;
+     font-family: "Source Sans Pro";
+     color: rgb(80, 106, 133);
+     line-height: 1.2;
+     max-width: 1440px;
+     margin: auto;
+    
+    
+ }
+ header .navbar-header .social{  
+     display: inline-block; 
+     height: 40px;
+     font-size: 12px;
+     font-family: "Source Sans Pro";
+     color: rgb(80, 106, 133);
+     line-height: 1.2;
+     max-width: 1440px;
+     margin: auto;
+    
+     
+ }
+
+ header nav ul li{
+     display: inline-block;
+ }
+ header nav ul li a{
+    font-size: 12px;
+    font-family: "Source Sans Pro";
+    color: rgb(80, 106, 133);
+    line-height: 1.2;
+    margin-right: 24px;
+ }
+
+header .navbar{
+    display: contents;
+    align-items: center;
+    justify-content: space-between;
+}
+header .navbar ul img{
+   margin-left: 350px;
+}
+header .navbar ul li{
+    font-size: 15px;
+  font-family: "Source Sans Pro";
+  color: rgb(80, 106, 133);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+  
+  
+  
+}
+header .button{
+    max-width: 1440px;
+    margin: auto;
+    align-items: center;
+    border:0;
+
+}
+ 
+section.hero{
+    position: relative;
+}
+
+section.hero img{
+    width: 100%;
+    height: auto;
+}
+
+.hero-content{
+    position:absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+}
+.hero-content .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+.hero-content h1{
+    font-size: 78px;
+    font-family: "Lato";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 1.128;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.hero-content p{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+.hero-content button{
+    border-radius: 3px;
+    background-color: rgb(0, 188, 156);
+    box-shadow: none;
+    position: absolute;
+    left: 813px;
+    top: 666px;
+    width: 295px;
+    height: 65px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+    font-family: "Lato";
+
+}
+
+.aboutus-container h2{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 44px;
+    font-family: "Lato";
+    color: rgb(80, 106, 133);
+    font-weight: bold;
+    line-height: 1.227;
+    margin-top: 100px;
+
+}
+
+.aboutus-container p{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Lato";
+    color: rgb(80, 106, 133);
+    line-height: 1.227;
+    font-size: 16px;
+}
+.aboutus-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+h3{
+    font-size: 26px;
+    font-family: "Lato";
+    color: rgb(80, 106, 133);
+    font-weight: bold;
+    line-height: 1.308;
+    
+   
+ }
+
+ .aboutus-content p{
+    color: rgb(80, 106, 133);
+    font-family: "Lato";
+    line-height: 1.308;
+    
+  
+ }
+
+ .aboutus-content-inner{
+    display: flex;
+    max-width: 1200px;
+ }
+ .aboutus-card{
+     display: flex;
+ }
+ .passion-info{
+    margin-top: -30px;
+    margin-left: 30px;
+ }
+.creativity-info{
+    margin-top: -30px;
+    margin-left: 30px;
+}
+.quality-info{
+    margin-top: -30px;
+    margin-left: 30px;
+}
+
+
+.latest-work{
+    background-color: rgb(245, 247, 251);
+}
+
+.latest-work-title {
+    margin-top: 200px;
+    font-family: "Lato";
+    color: rgb(80, 106, 133);
+    line-height: 1.227;
+    text-align: center;
+    padding-top: 100px;
+
+}
+
+.latest-work-title h3{
+    font-size: 44px;
+    font-weight: bold;
+}
+
+.latest-work-image{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.second-image{
+    margin-left: 30px;
+}
+
+.text-image{
+    font-family: "Lato";
+    color: rgb(80, 106, 133);
+    line-height: 1.227;
+    text-align: center;
+    background-color: white;
+    padding: 5px;
+}
+
+.carousel{
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 120px;
+}
+.item{
+    margin-left: 20px;
+}
+
+.get-in-touch{
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    text-align: center; 
+    line-height: 1.227;
+    font-family: "Lato";
+    color: rgb(80, 106, 133);
+}
+.get-in-touch-title h4{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.get-in-touch-title button{
+    border-radius: 3px;
+    background-color: rgb(0, 188, 156);
+    box-shadow: inset 0px -2px 0px 0px rgba(0, 0, 0, 0.15);
+    width: 150px;
+    height: 50px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-family: "Lato";
+}
+
+.bottom-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    padding-top: 80px;
+    background-color: rgb(47, 64, 82);
+    margin-top: 100px;
+    padding-bottom: 80px;
+}
+.bottom-container .title-list{
+    font-size: 16px;
+  font-family: "Lato";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.375;
+  text-align: left;
+  
+}
+
+.bottom-container li{
+    color:rgb(89, 104, 119);
+    font-family: "Lato";
+    line-height: 1.375;
+  text-align: left;
+  font-weight: bold;
+}
+.bottom-images{
+    display: flex;
+}
+
+.bottom-images .second{
+    padding-left: 0;
+    margin-left: 5px;
+}
+
+ul{
+    list-style-type: none;
+   
+}
+
+
+form{
+   
+        font-size: 14px;
+        font-family: "Source Sans Pro";
+        color: rgb(163, 177, 191);
+        line-height: 1.571;
+        text-align: left;
+        width: 88px;
+        height: 30px;
+       
+      }
+      
+form button{
+    font-size: 13px;
+  font-family: "Source Sans Pro";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+  border-radius: 3px;
+  background-color: rgb(0, 188, 156);
+  box-shadow: inset 0px -2px 0px 0px rgba(0, 0, 0, 0.15);
+  width: 88px;
+  height: 30px;
+}
+
+.footer-ending-content{
+    font-size: 14px;
+  font-family: "Source Sans Pro";
+  color: rgb(112, 126, 140);
+  line-height: 1.571;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(40, 54, 69);
+
+  height: 83px;
+}
