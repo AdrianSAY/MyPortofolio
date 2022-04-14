@@ -1,0 +1,467 @@
+.header{
+    background-color: #1d2126;
+}
+
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+.header-logo img{
+    width: 250px;
+    height: 20
+    ;
+}
+.list-header{
+    display: inline-flex;
+    color: aliceblue;
+    list-style-type: none;
+    line-height: 2.929;
+
+}
+.navbar-nav{
+    padding: 0 25px;
+    font-size: 14px;
+    font-family: "OpenSans";
+    color: rgb(164, 174, 173);
+    text-transform: uppercase;
+    line-height: 3;  
+    text-decoration: none;   
+}
+
+.collapse {
+    flex-direction: row-reverse;
+  
+}
+.header .navbar-light .navbar-nav .nav-link{
+    color: white;
+
+}
+    a{
+        color:rgb(164, 174, 173);
+        text-decoration: none;
+        
+    }
+    a:link{
+        color: rgb(164, 174, 173);
+    }
+    a:visited{
+       
+            border-style: solid;
+            border-width: 2px;
+            border-color: rgb(35, 183, 164);
+            border-radius: 2px;
+            background-color: rgba(255, 255, 255, 0); 
+    }
+    a:hover {
+        color: rgb(164, 174, 173);
+        border-style: solid;
+        border-width: 2px;
+        border-color: rgb(35, 183, 164);
+        border-radius: 2px;
+        cursor: pointer;
+    }
+ 
+.hero{
+    background-image: url(../images/hero.png);
+    background-size: cover; /* contain */
+    background-position: center center;
+    height: auto;
+    
+}
+.hero-content{
+    padding: 200px 0;
+}
+.hero-text h2{
+    font-size: 36px;
+    font-family: "QuattrocentoSans";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.167;
+}
+.hero-text p{
+    font-size: 16px;
+    font-family: "OpenSans";
+    color: rgb(204, 208, 215);
+    line-height: 1.625;
+}
+.butons{
+    padding: 20px 0;
+}
+.butons button{
+    
+        font-size: 14px;
+        font-family: "QuattrocentoSans";
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 2;
+        background-color: transparent;
+        border-style: solid;
+        border-width: 2px;
+        border-color: rgb(255, 255, 255);
+        border-radius: 3px;
+        width: 124px;
+        height: 44px;
+        
+     
+}
+button:hover{
+    color: rgb(255, 255, 255);
+    border-color: rgb(35, 183, 164);;
+    cursor: pointer;
+    background-color: rgb(35, 183, 164);
+}
+
+.item-example{
+    display: flex;
+}
+.modestall{
+    border-bottom:2px solid rgb(221, 225, 228);  
+}
+.modest-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.modest-text h1{
+    padding-bottom: 50px;
+    font-size: 36px;
+    font-family: "QuattrocentoSans";
+    color: rgb(41, 47, 54);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.167;     
+}
+.modest-text p{
+    font-size: 16px;
+    font-family: "OpenSans";
+    color: rgb(141, 143, 146);
+    line-height: 1.625;      
+}
+.image-item img{
+    padding-top: 15px;
+}
+.text-item h2{
+    font-size: 18px;
+    font-family: "QuattrocentoSans";
+    color: rgb(41, 47, 54);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 2.333;
+    padding:0 15px;
+    }
+.text-item p{
+    font-size: 16px;
+    font-family: "OpenSans";
+    color: rgb(141, 143, 146);
+    line-height: 1.625;
+    padding:0 15px;
+    
+}
+.overlay-container{
+    position: relative;
+    width: 25%;
+    display: flex;    
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.overlayimg {
+    opacity: 1;
+    transition: .5s ease;
+   
+  }
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+       transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    left: 44%;
+    position: absolute;
+  }
+.overlay-container:hover .overlayimg{
+    opacity: 0.3;
+}
+.overlay-container:hover .middle{
+    opacity: 1;
+}
+.team{
+    padding-bottom: 100px;
+}
+.team-all{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+.team-title{
+    padding: 100px 30px;
+    font-size: 36px;
+    font-family: "QuattrocentoSans";
+    color: rgb(41, 47, 54);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.167;
+}
+.social-text h2{
+    
+    font-size: 16px;
+    font-family: "QuattrocentoSans";
+    color: rgb(41, 47, 54);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 2.187;
+}
+.lovely-work{
+    padding: 100px 0;
+    background-color: #3a454d;
+}
+.work-text{
+    padding: 30px 30px;
+  
+        font-size: 36px;
+        font-family: "QuattrocentoSans";
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 1.167;      
+}
+.social-text p{
+    font-size: 14px;
+    font-family: "OpenSans";
+    color: rgb(141, 143, 146);
+    line-height: 1.857;      
+    }
+    .blabla{
+        padding: 10px;
+    }
+.work-button{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+       
+}
+.work-button button{
+    
+    font-size: 14px;
+    font-family: "QuattrocentoSans";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 2;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    background-color: rgba(222, 180, 180, 0);
+    width: 151px;
+    height: 44px;
+}
+.whatwedo{
+    padding: 100px;
+    text-align: center;
+}
+.whattitle{
+    padding: 30px 30px;
+    font-size: 36px;
+    font-family: "QuattrocentoSans";
+    color: rgb(41, 47, 54);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.167;
+    }
+
+.whatwedo-item{
+    padding: 30px;
+    text-align: center;
+}
+.whatwedo-item img{
+    padding: 20px 0;
+}
+.whatwedo-item h3{
+    padding: 30px 0;
+    font-size: 18px;
+    font-family: "QuattrocentoSans";
+    color: rgb(41, 47, 54);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+.uhu{
+
+        font-size: 16px;
+        font-family: "OpenSans";
+        color: rgb(141, 143, 146);
+        line-height: 1.625;
+}
+.all-features{
+    display: flex;
+    justify-content: space-between;
+}
+.features{
+    padding: 50px;
+    background-color: #3a454d;
+}
+.features-title{
+    padding: 30px 30px;
+    font-size: 36px;
+    font-family: "QuattrocentoSans";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.167;
+}
+   
+.featuresimg h4{
+    font-size: 18px;
+    font-family: "QuattrocentoSans";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 2.333;
+    padding: 30px 0;
+
+}
+.featuresimg p{
+    
+        font-size: 16px;
+        font-family: "OpenSans";
+        color: rgb(220, 223, 225);
+        line-height: 1.625;
+
+}
+.stay-all-content{
+    display: flex;
+    justify-content: space-between;
+}
+.all-contact{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding-top: 20px;
+}
+.name-email{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.message{
+    padding-left: 10px;
+    background-color: white;
+}
+.stay-contact{
+    margin-top: -180px;
+}
+.stayintouch{
+    padding: 100px 0;
+    background-image: url(../images/background-stay.png);
+    background-size: contain 300px;
+    background-repeat: no-repeat;
+    background-position: 55% 31%;
+}
+.stay-title{
+    padding: 30px 30px;
+    font-size: 36px;
+    font-family: "QuattrocentoSans";
+    color: rgb(41, 47, 54);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.167;
+       
+}
+input{
+    border:2px transparent;
+    border-radius: 6px;
+    background-color: rgb(234, 238, 241);
+    width: 240px;
+    height: 44px;
+      
+}
+textarea{
+    border:2px transparent;
+    border-radius: 6px;
+    background-color: rgb(234, 238, 241);
+    width: 495px;
+    height: 159px;
+}
+label{
+    padding-top: 20px;
+    font-size: 14px;
+    font-family: "QuattrocentoSans";
+    color: rgb(141, 143, 146);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.857;      
+}
+.contact-button{
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.contact-button button{
+         
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(35, 183, 164);
+    border-radius: 3px;
+    background-color: rgb(35, 183, 164);
+    width: 151px;
+    height: 44px;
+
+    font-size: 14px;
+    font-family: "QuattrocentoSans";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 2;
+} 
+.stay-txt{
+    margin-top: -150px;
+}       
+.stay-txt h3{
+    font-size: 26px;
+    font-family: "QuattrocentoSans";
+    color: rgb(41, 47, 54);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.3;
+    padding: 30px 0;     
+}   
+.stay-txt p{
+    font-size: 20px;
+    font-family: "OpenSans";
+    color: rgb(141, 143, 146);
+    line-height: 1.625;      
+}  
+.stay-contact{
+    margin-top: -50px;
+}
+.stay-txt   {
+    padding-top: 300px;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+}
+.footer{
+    background-color: #3a454d;
+    padding: 25px;
+}
+.footer-text h4{
+ 
+        font-size: 14px;
+        font-family: "OpenSans";
+        color: rgb(255, 255, 255);
+        line-height: 1.857;
+        text-align: left;
+        
+}
+.all-footer-img{
+    display: flex;
+}
