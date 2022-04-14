@@ -1,0 +1,380 @@
+body{
+    margin:0;
+    max-width: 100%;
+}
+
+h1{
+    margin-left: 20px;
+    font-size: 30px;
+  font-family: "Rockwell";
+  color: rgb(32, 34, 66);
+  line-height: 0.8;
+}
+h2{
+    font-size: 48px;
+  font-family: "Rockwell";
+  color: rgb(255, 255, 255);
+  line-height: 0.5;
+  text-align: left;
+  font-weight: lighter;
+}
+
+.header-navbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 30px;
+
+}
+
+.header-navbar .logo-home{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.header-navbar .logo-home ul{
+    display: inline-flex;
+    list-style-type: none;
+    font-size: 16px;
+    font-family: "Raleway";
+    text-transform: uppercase;
+    line-height: 1.5;
+    
+}
+.header-navbar .logo-home ul li{
+    margin-left: 30px;
+    text-decoration: none;
+}
+
+.contact p{
+    font-size: 12px;
+  font-family: "Raleway";
+  color: rgb(32, 34, 66);
+  font-weight: bold;
+  line-height: 2;
+  text-align: left;
+}
+
+.contact .live-chat{
+    display: inline-flex;
+    align-items: center;
+}
+.contact .live-chat1{
+    height: 40px;
+    width: 120px;
+    text-align: center;
+    font-size: 14px;
+    font-family: "Raleway";
+    color: rgb(32, 34, 66);
+    font-weight: bold;
+    background-color: rgb(250, 250, 50);
+    padding-top: 15px;
+}
+
+.tel{
+    font-size: 24px;
+  font-family: "Lato";
+  color: rgb(32, 34, 66);
+  font-weight: bold;
+  line-height: 1;
+  text-align: left;
+  margin-left: 40px;
+}
+
+
+.hero{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-content{
+    position: absolute;
+}
+
+.hero img{
+    width: 100%;
+    height: auto;
+
+}
+
+
+.paragraph-hero{
+    font-size: 30px;
+  font-family: "Raleway";
+  color: rgb(255, 255, 255);
+  line-height: 0.8;
+  text-align: center;
+}
+
+.hero-content img{
+    width: 102px;
+    height: 110px;
+    margin-top: 50px;
+}
+.check-button{
+    background-color: rgb(255, 255, 255);
+  opacity: 0.502;
+  margin-top: 62px;
+  width: 572px;
+  height: 90px;
+  display: inline-block;
+
+}
+
+.button-personalize{
+    padding: 8px;
+}
+.inputemail{
+    width: 375px;
+  height: 49px;
+  
+}
+.buttoncheck{
+    
+    width: 154px;
+  height: 54px;
+  background-color: yellow;
+}
+  
+.services{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    max-width: 100%;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.webhost{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.prrr{
+    width: 952px;
+    height: 900px;
+}
+
+
+.webhost-services{
+    position: absolute;
+    align-items: center;
+    text-align: center;
+}
+
+
+.domain{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.domain-services{
+    position: absolute;
+    align-items: center;
+    text-align: center;
+}
+
+.services h3{
+    font-size: 36px;
+  font-family: "Raleway";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 0.667;
+  padding-top: 35px;
+}
+
+.services p{
+    font-size: 14px;
+  font-family: "Raleway";
+  color: rgb(255, 255, 255);
+  line-height: 1.714;
+  text-align: center;
+}
+
+.services button{
+    width: 155px;
+  height: 56px;
+  font-size: 20px;
+  font-family: "Raleway";
+  color: rgb(255, 255, 255);
+  line-height: 1.714;
+  text-align: center;
+  font-weight: bold;
+  background-color: transparent;
+  margin-top: 80px;
+  border: 2px solid  rgb(255, 255, 255);
+
+}
+
+.title-subtitle{
+    position: absolute;
+    margin-top: -410px;
+}
+.ourfeautures-title{
+    font-size: 48px;
+    font-family: "Raleway";
+    color: rgb(32, 34, 66);
+    font-weight: bold;
+    line-height: 0.5;
+}
+
+.ourfeautures-subtitle{
+    font-size: 24px;
+    font-family: "Raleway";
+    color: rgb(32, 34, 66);
+    line-height: 1;
+    text-align: center;
+}
+
+.ourfeautures{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: relative;
+}
+.ourfeatures-container{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    padding-top: 100px;
+}
+
+.yellow{
+    font-size: 30px;
+  font-family: "Rockwell";
+  color: rgb(244, 211, 32);
+  line-height: 0.8;
+}
+.item{
+    font-size: 14px;
+  font-family: "Raleway";
+  color: rgb(32, 34, 66);
+  line-height: 1.714;
+  text-align: center;
+}
+
+hr{
+    margin-top: 40px;
+    border: none;
+    border-top: 5px solid #2d2b366c;
+    width: 66px;
+}
+
+.ourclients-content{
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    text-align: center;
+    justify-content: center;
+}
+
+.ourclients-images{
+    margin-left: 65px;
+}
+.imagine{
+    margin-left: 15px;
+}
+
+h4{
+    font-size: 36px;
+  font-family: "Raleway";
+  color: rgb(32, 34, 66);
+  font-weight: bold;
+  line-height: 1;
+  text-align: left;
+}
+
+.ourclients-subtitle{
+    font-size: 16px;
+  font-family: "Raleway";
+  color: rgb(173, 173, 173);
+  line-height: 1.5;
+  text-align: left;
+}
+
+.clients-review{
+    
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-top: 120px;
+}
+.poza{
+    align-items: center;
+    width: 372px;
+    height: 230px;
+}
+
+.poza1{
+    padding-left: 50px;
+    width: 372px;
+    height: 230px;
+}
+
+.plan-pricing{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    padding-top: 125px;
+}
+.plan-pricing-text{
+    position: absolute;
+    margin-right: 600px;
+    padding-left: 500px;
+}
+h5{
+    font-size: 36px;
+  font-family: "Raleway";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 0.667;
+  text-align: left;
+}
+.plan-pricing-subs{
+    font-size: 18px;
+  font-family: "Raleway";
+  color: rgb(103, 104, 123);
+  line-height: 1.333;
+  text-align: left;
+}
+.buttonfff{
+    position: absolute;
+    margin-left: 750px;
+    padding-left: 500px;
+    
+    
+}
+.buttonfff button{
+    width: 234px;
+    height: 87px;
+    border: 4px solid  rgb(255, 255, 255);
+    background-color: rgb(248, 196, 26);
+    font-size: 18px;
+  font-family: "Raleway";
+  color: rgb(32, 34, 66);
+  font-weight: bold;
+  line-height: 1.333;
+}
+.plan-pricing-img{
+    width: 100%;
+}
+.footerimg img{
+    width: 100%;
+}
